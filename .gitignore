@@ -1,0 +1,13 @@
+storage/
+.viminfo
+.git/
+.lesshst
+.cache 
+.gitconfig 
+.oh-my-zsh 
+.ssh 
+.viminfo 
+.zcompdump* 
+.zsh-syntax-highlight 
+.zsh-update 
+.zsh_history
