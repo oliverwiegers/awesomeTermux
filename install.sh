@@ -2,7 +2,7 @@
 
 # install software
 apt update -y && apt upgrade -y
-apt install unzip tar fontconfig wget git vim-python zsh curl ranger -y
+apt install nodejs tmux unzip tar fontconfig wget git vim-python zsh curl ranger -y
 
 #clone repo
 curl -LOk https://github.com/chrootzius/awesomeTermux/archive/master.zip

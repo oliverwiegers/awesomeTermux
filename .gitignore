@@ -11,3 +11,4 @@ storage/
 .zsh-syntax-highlight 
 .zsh-update 
 .zsh_history
+.vim/.netrwhist

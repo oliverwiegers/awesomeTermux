@@ -1,6 +1,13 @@
+"######################
+"#		 plugins	  #
+"######################
+
 "statusline
 set rtp+=$PREFIX/lib/python3.6/site-packages/powerline/bindings/vim/
 set laststatus=2
+
+"nerdtree
+map <C-m> :NERDTreeToggle<CR>
 
 "######################
 "#		 personal	  #
@@ -8,6 +15,7 @@ set laststatus=2
 
 "general
 set nocompatible
+set encoding=utf-8
 filetype on
 filetype plugin indent on
 
