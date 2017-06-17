@@ -10,6 +10,9 @@ After installing this you will have:
 +	zsh syntax highlighting
 +	vim + Colors + Powerline
 
+## Look
+![Termux](.shots/screenshot.png)
+
 ## Requirements
 
 +	curl
