@@ -1,0 +1,12 @@
+alias update="apt update && apt upgrade"
+alias reload="source $HOME/.zshrc && print \"ZSH config reloaded\""
+alias serv="python -m http.server"
+alias j="jump"
+alias tm="sh $HOME/documents/scripts/tmux.sh"
+
+mkcd() {
+	mkdir $1
+	cd $1
+}
+
+

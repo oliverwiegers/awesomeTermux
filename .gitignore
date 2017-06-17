@@ -1,4 +1,6 @@
+documents/
 storage/
+projects/
 .viminfo
 .git/
 .lesshst
@@ -11,4 +13,13 @@ storage/
 .zsh-syntax-highlight 
 .zsh-update 
 .zsh_history
-.vim/.netrwhist
+.vim/
+.vimrc
+.gem/
+.npm/
+node_modules/
+.v8*
+.gnupg/
+.local/
+.marks/
+.node*
