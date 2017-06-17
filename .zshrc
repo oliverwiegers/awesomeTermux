@@ -51,7 +51,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(vi-mode sudo jump git)
+plugins=(vi-mode sudo jump git zsh-completions)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -86,3 +86,4 @@ source $ZSH/oh-my-zsh.sh
 source /data/data/com.termux/files/home/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source $HOME/.config/zsh/zsh_aliases
 source $HOME/.config/zsh/zsh_settings
+autoload -U compinit && compinit
